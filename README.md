@@ -6,7 +6,7 @@ fluent-logger implementation for Node.js inspired by [fluent-logger-python].
 
 ## Install
 
-    $ npm install fluent-logger
+    $ npm install fluent-logger-1
 
 ## Prerequistes
 

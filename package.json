@@ -1,53 +1,36 @@
 {
-  "name": "fluent-logger",
-  "version": "2.2.0",
+  "name": "fluent-logger-1",
+  "version": "1.0.0",
+  "description": "linxuanwei edit winston",
   "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha -t 10000 --recursive"
   },
-  "author": {
-    "name": "Yohei Sasaki",
-    "email": "yssk22@gmail.com",
-    "url": "http://github.com/yssk22"
-  },
-  "contributors": [
-    {
-      "name": "Eduardo Silva",
-      "email": "eduardo@treasure-data.com",
-      "url": "http://edsiper.linuxchile.cl"
-    },
-    {
-      "name": "okkez",
-      "email": "okkez000@gmail.com",
-      "url": "http://okkez.net"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/fluent/fluent-logger-node"
+    "url": "git+https://github.com/linxuanwei/fluent-logger-node-1.git"
   },
-  "engines": {
-    "node": ">=0.10.30"
+  "keywords": [
+    "fluent",
+    "logger"
+  ],
+  "author": "linxuanwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linxuanwei/fluent-logger-node-1/issues"
   },
+  "homepage": "https://github.com/linxuanwei/fluent-logger-node-1#readme",
   "dependencies": {
-    "msgpack-lite": "*"
+      "msgpack-lite": "*"
   },
   "devDependencies": {
-    "mocha": "",
-    "chai": "",
-    "log4js": "",
-    "async": "",
-    "winston": ""
-  },
-  "licenses": [
-    {
-      "type": "Apache",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
-  "keywords": [
-    "logger",
-    "fluent",
-    "fluentd"
-  ]
+      "async": "",
+      "chai": "",
+      "log4js": "",
+      "mocha": "",
+      "winston": ""
+  }
 }
